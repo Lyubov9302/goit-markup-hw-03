@@ -28,7 +28,7 @@ a {
 
 .header {
 border-bottom: 1px solid #e7e9fc;
-width: 1158px;
+
 }
 
 .header-container {
@@ -138,6 +138,8 @@ text-align: center;
 letter-spacing: 0.02em;
 Color: #fff; 
 max-width: 496px;
+margin: 0 auto;
+margin-bottom: 48px;
 }
 
 
@@ -179,9 +181,13 @@ padding: 120px 0;
     display: flex; 
     gap: 24px;
 }
+.visually-hidden {
+display: none;
+}
+
 
 .qual-item {
-width: calc((100% - 72)/4);
+width: calc((100% - 72px)/4);
 }
 
 .descr {
@@ -357,4 +363,5 @@ line-height: 1.5;
 color: #F4F4FD;
 letter-spacing: 0.02em;
 margin-top: 16px;
+width: 264px;
 }
